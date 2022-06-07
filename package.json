@@ -4,7 +4,7 @@
 	"description": "A Fast Easy and simple to use ftp server based on ftpd",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node tests/test.js"
 	},
 	"repository": {
 		"type": "git",
@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/Jodu555/fastftp-server/issues"
 	},
-	"homepage": "https://github.com/Jodu555/fastftp-server#readme"
+	"homepage": "https://github.com/Jodu555/fastftp-server#readme",
+	"dependencies": {
+		"ftpd": "^0.2.16"
+	}
 }
